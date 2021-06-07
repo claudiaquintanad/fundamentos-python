@@ -36,7 +36,7 @@ print(x)
 def a(b, c):
     print(b+c)
 print(a(1,2) + a(2,3))
-#En la consola se muestra 3, 8, 11
+#En la consola se muestra 3, 5, error
 
 # 7
 def a(b, c):
