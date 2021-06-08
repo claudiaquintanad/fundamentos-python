@@ -8,10 +8,10 @@ for x in range(5, 1000+1, 5):
 
 #Contar, Dojo Way - imprime enteros del 1 al 100. Si es divisible por 5, imprima "Coding" en su lugar. Si es divisible por 10, imprima "Coding Dojo".
 for x in range(1, 100+1, 1):
-    if x % 5 == 0
-        x = 'Coding'
-    else if x % 10 == 0
+    if x%10== 0:
         x = 'Coding Dojo'
+    elif x%5== 0:
+        x = 'Coding'
     print(x)
 
 #¡Uf, Eso es bastante grande!: suma enteros impares de 0 a 500,000 e imprime la suma final.
@@ -28,6 +28,11 @@ for x in range(2018, 0, -4):
 #Contador flexible : establece tres variables: lowNum, highNum, mult. 
 # Comenzando en lowNum y pasando por highNum, imprima solo los enteros que son múltiplos de mult. 
 # Por ejemplo, si lowNum = 2, highNum = 9 y mult = 3, el bucle debe imprimir 3, 6, 9 (en líneas sucesivas)
-lowNum = 0
-highNum = 0
-mult = 0
+lowNum = 2
+highNum = 9
+mult = 3
+for x in range(lowNum, highNum+1, 1):
+    if x%mult==0:
+        print(x)
+
+        
