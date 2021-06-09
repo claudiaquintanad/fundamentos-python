@@ -35,7 +35,7 @@ def mayor_segundo(d):
         return False
     else:
         for x in range(0, len(d), 1):
-            if (d[x] > d[1]):
+            if d[x] > d[1]:
                 contador = contador + 1
                 array.append(d[x])
     print(contador)
