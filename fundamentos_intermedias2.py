@@ -41,7 +41,7 @@ print(z)
 def iterateDictionary(some_list):
     for x in range(0, len(some_list), 1):
         print(some_list[x])
-        print(f"first_name - {students[x]['first_name']}, last_name - {students[x]['last_name']}")
+        print(f"first_name - {students[x]['first_name']}, last_name - {students[x]['last_name']}") #bonus
 
 
 students = [
@@ -51,6 +51,9 @@ students = [
         {'first_name' : 'KB', 'last_name' : 'Tonel'}
     ]
 iterateDictionary(students) 
+
+
+
 # La salida debería ser: (Está bien si cada clave y valor quedan en dos líneas separadas)
 # Bonus: Hacer que aparezcan exactamente así!
 """first_name - Michael, last_name - Jordan
